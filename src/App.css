@@ -1,7 +1,5 @@
 #root {
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
 }
 
 .orange {
@@ -18,4 +16,16 @@
 
 .white {
 	color: #eeeeee;
+}
+
+.navButton {
+	cursor: pointer;
+	border: 1px solid #fd7014;
+	padding: 0.5em;
+	border-radius: 6px;
+	color: #fd7014;
+}
+
+.navButton:hover {
+	box-shadow: #fd7014 0px 5px 15px;
 }
