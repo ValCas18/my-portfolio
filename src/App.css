@@ -1,4 +1,5 @@
 #root {
+	min-width: 375px;
 	min-height: 100vh;
 }
 
@@ -27,5 +28,7 @@
 }
 
 .navButton:hover {
-	box-shadow: #fd7014 0px 5px 15px;
+	box-shadow: #fd7014 0px 7px 29px 0px;
+	background-color: #fd7014;
+	color: #eeeeee;
 }
