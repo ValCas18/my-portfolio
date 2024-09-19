@@ -32,3 +32,13 @@
 	background-color: #fd7014;
 	color: #eeeeee;
 }
+
+.card:hover {
+	border: 1px solid #393e46;
+	border-radius: 10px;
+	background-color: #ff660021;
+}
+
+.card:hover h3 {
+	color: #fd7014;
+}
