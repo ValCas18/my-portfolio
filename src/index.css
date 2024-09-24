@@ -1,11 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Lato", sans serif;
 }
 
 img {
@@ -24,10 +25,12 @@ a {
 	color: inherit;
 }
 
+html,
 body {
-	background-color: #222831;
-	color: rgb(148, 157, 167);
-	margin: 0 auto;
+	background-color: #1f242d;
+	color: #eeeeee;
+	margin: 0;
 	padding: 0;
-	font-size: large;
+	box-sizing: border-box;
+	overflow-x: hidden;
 }

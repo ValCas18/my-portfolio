@@ -8,37 +8,43 @@
 }
 
 .black {
-	color: #222831;
+	color: #1f242d;
 }
 
 .gray {
-	color: #393e46;
+	color: #323946;
 }
 
 .white {
 	color: #eeeeee;
 }
 
-.navButton {
-	cursor: pointer;
-	border: 1px solid #fd7014;
-	padding: 0.5em;
-	border-radius: 6px;
-	color: #fd7014;
+.myNav {
+	border-radius: 12px;
+	background: #ffffff1a;
+	border: 1px solid #ffffff20;
+	backdrop-filter: blur(16px) saturate(120%);
 }
 
-.navButton:hover {
-	box-shadow: #fd7014 0px 7px 29px 0px;
+.myIcon {
+	color: #fd7014;
+	font-size: 1.5em;
+	display: inline-flex;
+	border: 1px solid #fd7014;
+	padding: 12px;
+	border-radius: 50%;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.myIcon:hover {
 	background-color: #fd7014;
 	color: #eeeeee;
 }
 
-.card:hover {
-	border: 1px solid #393e46;
-	border-radius: 10px;
-	background-color: #ff660021;
+.dlBtn {
+	transition: box-shadow 0.5s ease-in-out;
 }
-
-.card:hover h3 {
-	color: #fd7014;
+.dlBtn:hover {
+	box-shadow: #fd7014 0px 7px 29px 0px;
+	color: #eeeeee;
 }
