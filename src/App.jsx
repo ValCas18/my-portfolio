@@ -7,13 +7,13 @@ function App() {
 			<div className="mx-auto min-h-screen max-w-screen-xl my-5 flex flex-col">
 				<div className="myNav mx-2 p-3 mb-5">
 					<ul className="flex flex-row justify-center gap-5">
-						<li>About Me</li>
-						<li>Experience</li>
-						<li>Projects</li>
-						<li>Contact</li>
+						<li className="navItem">About Me</li>
+						<li className="navItem">Experience</li>
+						<li className="navItem">Projects</li>
+						<li className="navItem">Contact</li>
 					</ul>
 				</div>
-				<main id="about" className="mx-7 flex flex-col md:items-center">
+				<main id="about" className="mx-7 flex flex-row md:items-center">
 					<div className="font-bold space-y-1 mb-5">
 						<h2 className="text-3xl">Hello! I am</h2>
 						<h1 className="text-5xl">Valerio Casadei</h1>

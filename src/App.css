@@ -48,3 +48,15 @@
 	box-shadow: #fd7014 0px 7px 29px 0px;
 	color: #eeeeee;
 }
+
+.navItem:hover {
+	text-decoration: underline;
+	text-decoration-color: #fd7014;
+	text-decoration-style: solid;
+	text-decoration-thickness: 0.2em;
+	cursor: pointer;
+}
+
+#about {
+	min-height: 100vh;
+}
