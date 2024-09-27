@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--orange: #fd7014;
+	--black: #1f242d;
+	--gray: #323946;
+	--white: #eeeeee;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -28,8 +35,8 @@ a {
 
 html,
 body {
-	background-color: #1f242d;
-	color: #eeeeee;
+	background-color: var(--black);
+	color: var(--white);
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;

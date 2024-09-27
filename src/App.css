@@ -27,36 +27,36 @@
 }
 
 .myIcon {
-	color: #fd7014;
+	color: var(--orange);
 	font-size: 1.5em;
 	display: inline-flex;
-	border: 1px solid #fd7014;
+	border: 1px solid var(--orange);
 	padding: 12px;
 	border-radius: 50%;
 	transition: background-color 0.5s ease-in-out;
 }
 
 .myIcon:hover {
-	background-color: #fd7014;
-	color: #eeeeee;
+	background-color: var(--orange);
+	color: var(--white);
 }
 
 .dlBtn {
 	transition: box-shadow 0.5s ease-in-out;
 }
 .dlBtn:hover {
-	box-shadow: #fd7014 0px 7px 29px 0px;
-	color: #eeeeee;
+	box-shadow: var(--orange) 0px 7px 29px 0px;
+	color: var(--white);
 }
 
 .navItem:hover {
 	text-decoration: underline;
-	text-decoration-color: #fd7014;
+	text-decoration-color: var(--orange);
 	text-decoration-style: solid;
 	text-decoration-thickness: 0.2em;
 	cursor: pointer;
 }
 
 #about {
-	min-height: 100vh;
+	background-color: var(--gray);
 }
