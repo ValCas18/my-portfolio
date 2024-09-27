@@ -1,6 +1,7 @@
-import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faLaptopCode, faUsers } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
 	return (
@@ -24,14 +25,14 @@ function App() {
 					</div>
 					<div className="flex flex-row justify-center gap-5 mb-5">
 						<a href="https://www.linkedin.com/in/valerio-casadei-frontenddeveloper/" target="_blank">
-							<i className="bx bxl-linkedin myIcon"></i>
+							<FontAwesomeIcon icon={faLinkedinIn} className="myIcon" />
 						</a>
 						<a href="https://github.com/ValCas18" target="_blank">
-							<i className="bx bxl-github myIcon"></i>
+							<FontAwesomeIcon icon={faGithub} className="myIcon" />
 						</a>
 					</div>
 					<div>
-						<a href="./assets/[ITA]CV_Casadei_Valerio1.pdf" download>
+						<a href="/[ITA]CV_Casadei_Valerio1.pdf" download>
 							<button className="dlBtn px-6 py-3 bg-[#fd7014] text-black rounded-full mb-5 font-bold">
 								Download CV
 							</button>
@@ -64,13 +65,15 @@ function App() {
 							<li>Lorem, ipsum dolor.</li>
 						</ul>
 					</div>
-					<div className="bg-[#323946]">
-						<i></i>
-						<h3></h3>
-						<p></p>
-						<ul></ul>
-						<ul></ul>
-						<ul></ul>
+					<div className="bg-[#323946] rounded-md px-3 py-6 my-5 text-center">
+						<FontAwesomeIcon icon={faUsers} className="orange text-4xl" />
+						<h3 className="text-2xl font-extrabold my-3">Soft Skill</h3>
+						<p className="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dolorum?</p>
+						<ul className="my-3">
+							<li>Lorem, ipsum dolor.</li>
+							<li>Lorem, ipsum dolor.</li>
+							<li>Lorem, ipsum dolor.</li>
+						</ul>
 					</div>
 				</section>
 			</div>
