@@ -8,13 +8,23 @@ import galleryImg from "./assets/gallery.png";
 import weatherImg from "./assets/weather.png";
 import spotifyImg from "./assets/spotify.png";
 import quizImg from "./assets/quiz.png";
+import html from "./assets/html-5.362x512.png";
+import css from "./assets/css-3.svg";
+import sass from "./assets/sass.svg";
+import bootstrap from "./assets/bootstrap.svg";
+import tailwind from "./assets/tailwind-css.svg";
+import js from "./assets/javascript-js.svg";
+import ts from "./assets/typescript-icon.svg";
+import react from "./assets/react-original-wordmark.svg";
+import redux from "./assets/redux-original.svg";
+import github from "./assets/github-original-wordmark.svg";
 
 function App() {
 	return (
 		<>
-			<div className="mx-auto mt-5 max-w-screen-xl flex flex-col md:min-h-screen">
+			<div className="mt-5 max-w-screen-2xl flex flex-col justify-center md:min-h-screen md:">
 				<div className="myNav mx-2 p-3 mb-5 sticky top-0 z-50">
-					<ul className="flex flex-row justify-center gap-5">
+					<ul className="flex flex-row justify-center md:justify-evenly gap-5">
 						<li className="navItem" href="#about">
 							<a href="#about">About Me</a>
 						</li>
@@ -58,7 +68,7 @@ function App() {
 						</div>
 					</div>
 				</main>
-				<section id="about" className="px-7 py-14">
+				<section id="about" className="px-7 py-14 rounded-md">
 					<div>
 						<h2 className="text-3xl font-extrabold text-center">
 							About <span className="orange">Me</span>
@@ -102,23 +112,76 @@ function App() {
 						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center">
 							<FontAwesomeIcon icon={faUsers} className="orange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Soft Skill</h3>
-							<p className="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, dolorum?</p>
+							<p className="my-3">
+								Developed in my previous studying and working experiences, and honed through my hobbies and passions.
+							</p>
 							<ul className="my-3">
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
-								<li>Lorem, ipsum dolor.</li>
+								<li>Empathy</li>
+								<li>Teamplay</li>
+								<li>Dedication, Perseverance</li>
 							</ul>
 						</div>
 					</div>
+					<div className="flex flex-wrap gap-3 justify-evenly my-12">
+						<img
+							src={html}
+							alt="html logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={css}
+							alt="css logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={sass}
+							alt="sass logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={bootstrap}
+							alt="bootstrap logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={tailwind}
+							alt="tailwind logo"
+							className="w-1/6  md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={js}
+							alt="js logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={ts}
+							alt="ts logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={react}
+							alt="react logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={redux}
+							alt="redux logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+						<img
+							src={github}
+							alt="github logo"
+							className="w-1/6 md:w-1/10 lg:w-1/12 transition-transform duration-500 ease-in-out transform hover:scale-150"
+						/>
+					</div>
 				</section>
-				<section id="project" className="bg-[#323946] px-7 py-14">
+				<section id="project" className="bg-[#323946] px-7 py-14 rounded-md">
 					<h2 className="text-3xl font-extrabold mb-5 text-center">
 						My <span className="orange">Projects</span>
 					</h2>
-					<div className="flex flex-wrap gap-10">
-						{/* First Row of Projects */}
-						<div className="relative group basis-full md:basis-1/3 flex-shrink-0">
-							<img src={galleryImg} alt="gallery project" className="basis-full rounded-md group-hover:opacity-25" />
+					<div className="flex flex-wrap gap-5 justify-center py-5">
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+							<img src={galleryImg} alt="gallery project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">My Gallery</h2>
 								<p className="mt-2 overflow-hidden max-h-24">Images showcase app. API Fetch and Tailwind practice.</p>
@@ -128,8 +191,8 @@ function App() {
 							</div>
 						</div>
 
-						<div className="relative group basis-full md:basis-1/3 flex-shrink-0">
-							<img src={postitImg} alt="post-it project" className="basis-full rounded-md group-hover:opacity-25" />
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+							<img src={postitImg} alt="post-it project" className="rounded-md group-hover:opacity-25" />
 							<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">Post-it Project</h2>
 								<p className="mt-2">Add or remove post-it from this To-Do-List, cartoonish style.</p>
@@ -139,12 +202,8 @@ function App() {
 							</div>
 						</div>
 
-						<div className="relative group basis-full md:basis-1/3 flex-shrink-0">
-							<img
-								src={weatherImg}
-								alt="weather app project"
-								className="basis-full rounded-md group-hover:opacity-25"
-							/>
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+							<img src={weatherImg} alt="weather app project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">WeatherApp</h2>
 								<p className="mt-2 overflow-hidden max-h-24">Weather forecast app, backgrounds made with LeonardoAI.</p>
@@ -154,13 +213,8 @@ function App() {
 							</div>
 						</div>
 
-						{/* Second Row of Projects */}
-						<div className="relative group basis-full md:basis-1/3 flex-shrink-0">
-							<img
-								src={wowImg}
-								alt="wow character finder project"
-								className="basis-full rounded-md group-hover:opacity-25"
-							/>
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+							<img src={wowImg} alt="wow character finder project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">WoW Finder</h2>
 								<p className="mt-2 overflow-hidden max-h-24">Find your WoW Character! Epicode capstone project</p>
@@ -170,12 +224,8 @@ function App() {
 							</div>
 						</div>
 
-						<div className="relative group basis-full md:basis-1/3 flex-shrink-0">
-							<img
-								src={spotifyImg}
-								alt="spotify clone project"
-								className="basis-full rounded-md group-hover:opacity-25"
-							/>
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+							<img src={spotifyImg} alt="spotify clone project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">Spotify Clone</h2>
 								<p className="mt-2 overflow-hidden max-h-24">Group Project, practiced JS and Bootstrap.</p>
@@ -185,8 +235,8 @@ function App() {
 							</div>
 						</div>
 
-						<div className="relative group basis-full md:basis-1/3 flex-shrink-0">
-							<img src={quizImg} alt="quiz project" className="basis-full rounded-md group-hover:opacity-25" />
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+							<img src={quizImg} alt="quiz project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">Epicode Quiz</h2>
 								<p className="mt-2 overflow-hidden max-h-24">Group Project, my very first work with JS.</p>
@@ -197,7 +247,6 @@ function App() {
 						</div>
 					</div>
 				</section>
-
 				<section id="contact" className="px-7 py-14 my-24 text-center">
 					<h2 className="text-3xl font-extrabold mb-5">
 						Contact <span className="orange">Me</span>
