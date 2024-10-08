@@ -249,7 +249,7 @@ function App() {
 				</section>
 				<section id="contact" className="px-7 py-14 my-24 text-center">
 					<h2 className="text-3xl font-extrabold mb-5">
-						Contact <span className="orange">Me</span>
+						Interested in a collaboration? <span className="orange">Contact me!</span>
 					</h2>
 					<div className="group inline-block">
 						<a href="mailto:valeriocasadei18@gmail.com">
