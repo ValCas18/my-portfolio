@@ -22,7 +22,7 @@ import github from "./assets/github-original-wordmark.svg";
 function App() {
 	return (
 		<>
-			<div className="mt-5 max-w-screen-2xl flex flex-col justify-center md:min-h-screen md:">
+			<div className="mt-5 max-w-screen-2xl flex flex-col justify-center md:min-h-screen">
 				<div className="myNav mx-2 p-3 mb-5 sticky top-0 z-50">
 					<ul className="flex flex-row justify-center md:justify-evenly gap-5">
 						<li className="navItem" href="#about">
@@ -94,7 +94,7 @@ function App() {
 						<p className="my-5">I can't wait to put my skills to the test and grow in this dynamic field!</p>
 					</div>
 				</section>
-				<section id="skill" className="px-7 py-14">
+				<section id="skill" className="px-7 md:px-0 py-14">
 					<h2 className="text-3xl font-extrabold text-center">
 						My <span className="orange">Skills</span>
 					</h2>
@@ -262,7 +262,7 @@ function App() {
 						</a>
 					</div>
 				</section>
-				<footer className="bg-[#323946]">
+				<footer className="bg-[#323946] rounded-t-md">
 					<p className="text-center p-8 text-sm italic">Copyright© 2024 by Valerio Casadei</p>
 				</footer>
 			</div>
