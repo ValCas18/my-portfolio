@@ -263,7 +263,7 @@ function App() {
 					</div>
 				</section>
 				<footer className="bg-[#323946] rounded-t-md">
-					<p className="text-center p-8 text-sm italic">Copyright© 2024 by Valerio Casadei</p>
+					<p className="text-center p-7 text-sm italic">Copyright© 2024 by Valerio Casadei</p>
 				</footer>
 			</div>
 		</>
