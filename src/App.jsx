@@ -195,7 +195,7 @@ function App() {
 
 						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
 							<img src={postitImg} alt="post-it project" className="rounded-md group-hover:opacity-25" />
-							<div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
+							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">Post-it Project</h2>
 								<p className="mt-2 overflow-hidden max-h-24">
 									Add or remove post-it from this To-Do-List, cartoonish style.
