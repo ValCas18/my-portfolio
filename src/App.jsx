@@ -71,7 +71,7 @@ function App() {
 				<section id="about" className="px-7 py-14 rounded-md">
 					<div>
 						<h2 className="text-3xl font-extrabold text-center">
-							About <span className="myOrange">Me</span>
+							About <span className="text-myOrange">Me</span>
 						</h2>
 						<p className="my-5">
 							The journey that brought me to the world of web development started from somewhere unexpected: sociology.
@@ -83,22 +83,29 @@ function App() {
 						<p className="my-5">
 							I joined an online course at Epicode, where I progressed from the basics of HTML and CSS to more complex
 							technologies, languages, and libraries such as{" "}
-							<span className="text-myOrange font-bold">JavaScript, React, Redux, Bootstrap, and Tailwind</span>. I
-							strive to learn something new every day and continuously practice to hone my web development skills. What
-							I truly enjoy about frontend development is the opportunity to create functional, innovative,
-							eye-catching, and responsive websites and interfaces.
+							<span className="text-myOrange font-bold">JavaScript, React, Redux, Bootstrap,</span> and{" "}
+							<span className="text-myOrange font-bold">Tailwind</span>. I strive to learn something new every day and
+							continuously practice to hone my web development skills. What I truly enjoy about frontend development is
+							the opportunity to create functional, innovative, eye-catching, and responsive websites and interfaces.
 						</p>
 						<p className="my-5">
 							Beyond my technical skills, my background in sociology and my hobbies have taught me{" "}
-							<span className="text-myOrange font-bold">empathy and teamwork</span>, providing me with a unique
-							perspective on user experience and design.
+							<span className="text-myOrange font-bold">empathy</span> and{" "}
+							<span className="text-myOrange font-bold">teamwork</span>, providing me with a unique perspective on user
+							experience and design.
+						</p>
+						<p className="my-5">
+							When I'm not coding, you'll find me immersing myself in my other passions: playing the guitar and
+							listening to rock music (especially punk and metalcore), catching up on the latest science articles, or
+							enjoying a good movie: Interstellar and The Lord of the Rings are my all-time favorites. I'm also an avid
+							gamer, often exploring the fields of Azeroth in World of Warcraft (For the Alliance!).
 						</p>
 						<p className="my-5">I can't wait to put my skills to the test and grow in this dynamic field!</p>
 					</div>
 				</section>
 				<section id="skill" className="px-7 md:px-0 py-14">
 					<h2 className="text-3xl font-extrabold text-center">
-						My <span className="myOrange">Skills</span>
+						My <span className="text-myOrange">Skills</span>
 					</h2>
 					<div className="flex flex-col lg:flex-row lg:gap-20">
 						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center">
@@ -179,7 +186,7 @@ function App() {
 				</section>
 				<section id="project" className="bg-[#323946] px-7 py-14 rounded-md">
 					<h2 className="text-3xl font-extrabold mb-5 text-center">
-						My <span className="myOrange">Projects</span>
+						My <span className="text-myOrange">Projects</span>
 					</h2>
 					<div className="flex flex-wrap gap-5 justify-center py-5">
 						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
@@ -253,7 +260,7 @@ function App() {
 				</section>
 				<section id="contact" className="px-7 py-14 my-24 text-center">
 					<h2 className="text-3xl font-extrabold mb-5">
-						Interested in a collaboration? <span className="myOrange">Contact me</span>
+						Interested in a collaboration? <span className="text-myOrange">Contact me!</span>
 					</h2>
 					<div className="inline-block">
 						<a
