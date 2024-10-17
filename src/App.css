@@ -29,7 +29,7 @@
 }
 
 .dlBtn {
-	transition: box-shadow 0.5s ease-in-out;
+	transition: box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 .dlBtn:hover {

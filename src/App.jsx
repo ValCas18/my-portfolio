@@ -258,11 +258,11 @@ function App() {
 					<div className="inline-block">
 						<a
 							href="mailto:valeriocasadei18@gmail.com"
-							className="border-2 border-myOrange px-14 py-4 rounded-md transition-colors duration-1000 ease-in-out hover:bg-myOrange flex items-center justify-center group transition-delay-500"
+							className="dlBtn border-2 border-myOrange px-14 py-4 rounded-md bg-myOrange text-black font-bold flex items-center justify-center ease-in-out hover:bg-myOrange hover:text-myWhite hover:shadow-[0_0_15px_#fd7014,_0_0_30px_#fd7014] transition-shadow duration-1000  group"
 						>
 							<FontAwesomeIcon
 								icon={faEnvelope}
-								className="text-5xl text-myOrange transition-colors duration-1000 group-hover:text-myWhite"
+								className="text-5xl text-black transition-colors duration-500 group-hover:text-myWhite"
 							/>
 						</a>
 					</div>
