@@ -217,7 +217,9 @@ function App() {
 							<img src={weatherImg} alt="weather app project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">WeatherApp</h2>
-								<p className="mt-2 overflow-hidden max-h-24">Weather forecast app, backgrounds made with LeonardoAI.</p>
+								<p className="mt-2 overflow-hidden max-h-24">
+									A weather forecast app, backgrounds changes depending on weather.
+								</p>
 								<a href="https://github.com/ValCas18/mygallery-app" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon={faArrowRight} className="mt-5 border-2 rounded-full p-2" />
 								</a>
@@ -228,7 +230,7 @@ function App() {
 							<img src={wowImg} alt="wow character finder project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">WoW Finder</h2>
-								<p className="mt-2 overflow-hidden max-h-24">Find your WoW Character! Epicode capstone project</p>
+								<p className="mt-2 overflow-hidden max-h-24">Epicode capstone project, find your WoW Character!</p>
 								<a href="https://github.com/ValCas18/mygallery-app" target="_blank" rel="noopener noreferrer">
 									<FontAwesomeIcon icon={faArrowRight} className="mt-5 border-2 rounded-full p-2" />
 								</a>
