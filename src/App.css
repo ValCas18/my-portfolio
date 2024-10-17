@@ -37,11 +37,11 @@
 	color: var(--white);
 }
 
+.navItem {
+	font-weight: bold;
+}
 .navItem:hover {
-	text-decoration: underline;
-	text-decoration-color: var(--orange);
-	text-decoration-style: solid;
-	text-decoration-thickness: 0.2em;
+	color: var(--orange);
 	cursor: pointer;
 }
 
