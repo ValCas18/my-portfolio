@@ -36,7 +36,7 @@
 	border: 1px solid var(--orange);
 	padding: 12px;
 	border-radius: 50%;
-	transition: background-color 0.6s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
 }
 
 .myIcon:hover {
@@ -47,8 +47,9 @@
 .dlBtn {
 	transition: box-shadow 0.5s ease-in-out;
 }
+
 .dlBtn:hover {
-	box-shadow: var(--orange) 0px 7px 29px 0px;
+	box-shadow: 0px 7px 29px 0px var(--orange);
 	color: var(--white);
 }
 

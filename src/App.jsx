@@ -206,7 +206,7 @@ function App() {
 							</div>
 						</div>
 
-						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
+						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md b g-contain">
 							<img src={weatherImg} alt="weather app project" className="rounded-md group-hover:opacity-25" />
 							<div className="px-3 text-center absolute bottom-0 left-0 right-0 bg-gradient-to-t from-orange-500 to-transparent flex flex-col items-center justify-center text-white h-0 opacity-0 transition-all duration-500 ease-in-out group-hover:h-full group-hover:opacity-100 rounded-md">
 								<h2 className="text-3xl font-bold">WeatherApp</h2>
@@ -255,14 +255,15 @@ function App() {
 					<h2 className="text-3xl font-extrabold mb-5">
 						Interested in a collaboration? <span className="orange">Contact me</span>
 					</h2>
-					<div className="group inline-block">
-						<a href="mailto:valeriocasadei18@gmail.com">
-							<button className="border-2 border-[var(--orange)] px-14 py-4 rounded-md group-hover:bg-[var(--orange)] transition-colors transition-shadow duration-500 ease-in-out group-hover:shadow-[0_0_15px_var(--orange),_0_0_30px_var(--orange)] ">
-								<FontAwesomeIcon
-									icon={faEnvelope}
-									className="text-5xl text-[var(--orange)] group-hover:text-[var(--white)] "
-								/>
-							</button>
+					<div className="inline-block">
+						<a
+							href="mailto:valeriocasadei18@gmail.com"
+							className="border-2 border-[var(--orange)] px-14 py-4 rounded-md transition-colors duration-500 ease-in-out hover:bg-[var(--orange)] hover:shadow-[0_0_15px_var(--orange),_0_0_30px_var(--orange)] flex items-center justify-center group"
+						>
+							<FontAwesomeIcon
+								icon={faEnvelope}
+								className="text-5xl text-[var(--orange)] transition-colors duration-500 group-hover:text-[var(--white)]"
+							/>
 						</a>
 					</div>
 				</section>
