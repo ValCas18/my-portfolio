@@ -82,14 +82,16 @@ function App() {
 						</p>
 						<p className="my-5">
 							I joined an online course at Epicode, where I progressed from the basics of HTML and CSS to more complex
-							technologies, languages, and libraries such as JavaScript, React, Redux, Bootstrap, and Tailwind. I strive
-							to learn something new every day and continuously practice to hone my web development skills. What I truly
-							enjoy about frontend development is the opportunity to create functional, innovative, eye-catching, and
-							responsive websites and interfaces.
+							technologies, languages, and libraries such as{" "}
+							<span className="text-[var(--orange)] font-bold">JavaScript, React, Redux, Bootstrap, and Tailwind</span>.
+							I strive to learn something new every day and continuously practice to hone my web development skills.
+							What I truly enjoy about frontend development is the opportunity to create functional, innovative,
+							eye-catching, and responsive websites and interfaces.
 						</p>
 						<p className="my-5">
-							Beyond my technical skills, my background in sociology has taught me empathy and teamwork, providing me
-							with a unique perspective on user experience and design.
+							Beyond my technical skills, my background in sociology and my hobbies have taught me{" "}
+							<span className="text-[var(--orange)] font-bold">empathy and teamwork</span>, providing me with a unique
+							perspective on user experience and design.
 						</p>
 						<p className="my-5">I can't wait to put my skills to the test and grow in this dynamic field!</p>
 					</div>
