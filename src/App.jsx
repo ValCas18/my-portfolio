@@ -42,10 +42,10 @@ function App() {
 				<main id="intro" className="px-7 py-14 flex flex-col text-center">
 					<div className="font-extrabold space-y-1 mb-5">
 						<h2 className="text-3xl font-extrabold">Hello! My name is</h2>
-						<h1 className="text-5xl font-extrabold">Valerio Casadei</h1>
+						<h1 className="text-5xl font-extrabold text-myOrange">Valerio Casadei</h1>
 						<h3 className="text-2xl font-extrabold">
 							and I am a{" "}
-							<span className="orange">
+							<span className="text-myOrange">
 								Front-end <br className="md:hidden"></br>Web Developer
 							</span>
 						</h3>{" "}
@@ -71,26 +71,26 @@ function App() {
 				<section id="about" className="px-7 py-14 rounded-md">
 					<div>
 						<h2 className="text-3xl font-extrabold text-center">
-							About <span className="orange">Me</span>
+							About <span className="myOrange">Me</span>
 						</h2>
 						<p className="my-5">
 							The journey that brought me to the world of web development started from somewhere unexpected: sociology.
 							While studying the complexities and intricacies of human society and behavior has always been an interest
 							of mine, after earning both a Bachelor's Degree and a Master's Degree in Sociology, I decided to change my
 							path and follow my passion for technology and innovation. Embracing the challenge of becoming a
-							<strong className="text-[var(--orange)]"> frontend developer</strong> was my next step.
+							<strong className="text-myOrange"> frontend developer</strong> was my next step.
 						</p>
 						<p className="my-5">
 							I joined an online course at Epicode, where I progressed from the basics of HTML and CSS to more complex
 							technologies, languages, and libraries such as{" "}
-							<span className="text-[var(--orange)] font-bold">JavaScript, React, Redux, Bootstrap, and Tailwind</span>.
-							I strive to learn something new every day and continuously practice to hone my web development skills.
-							What I truly enjoy about frontend development is the opportunity to create functional, innovative,
+							<span className="text-myOrange font-bold">JavaScript, React, Redux, Bootstrap, and Tailwind</span>. I
+							strive to learn something new every day and continuously practice to hone my web development skills. What
+							I truly enjoy about frontend development is the opportunity to create functional, innovative,
 							eye-catching, and responsive websites and interfaces.
 						</p>
 						<p className="my-5">
 							Beyond my technical skills, my background in sociology and my hobbies have taught me{" "}
-							<span className="text-[var(--orange)] font-bold">empathy and teamwork</span>, providing me with a unique
+							<span className="text-myOrange font-bold">empathy and teamwork</span>, providing me with a unique
 							perspective on user experience and design.
 						</p>
 						<p className="my-5">I can't wait to put my skills to the test and grow in this dynamic field!</p>
@@ -98,11 +98,11 @@ function App() {
 				</section>
 				<section id="skill" className="px-7 md:px-0 py-14">
 					<h2 className="text-3xl font-extrabold text-center">
-						My <span className="orange">Skills</span>
+						My <span className="myOrange">Skills</span>
 					</h2>
 					<div className="flex flex-col lg:flex-row lg:gap-20">
 						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center">
-							<FontAwesomeIcon icon={faLaptopCode} className="orange text-4xl" />
+							<FontAwesomeIcon icon={faLaptopCode} className="text-myOrange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Frontend Development</h3>
 							<p className="my-3">I enjoy creating responsive and captivating interfaces using:</p>
 							<ul className="my-3">
@@ -112,7 +112,7 @@ function App() {
 							</ul>
 						</div>
 						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center">
-							<FontAwesomeIcon icon={faUsers} className="orange text-4xl" />
+							<FontAwesomeIcon icon={faUsers} className="text-myOrange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Soft Skill</h3>
 							<p className="my-3">
 								Developed in my previous studying and working experiences, and honed through my hobbies and passions.
@@ -179,7 +179,7 @@ function App() {
 				</section>
 				<section id="project" className="bg-[#323946] px-7 py-14 rounded-md">
 					<h2 className="text-3xl font-extrabold mb-5 text-center">
-						My <span className="orange">Projects</span>
+						My <span className="myOrange">Projects</span>
 					</h2>
 					<div className="flex flex-wrap gap-5 justify-center py-5">
 						<div className="relative group w-full md:w-[40em] flex-shrink-0 rounded-md">
@@ -253,16 +253,16 @@ function App() {
 				</section>
 				<section id="contact" className="px-7 py-14 my-24 text-center">
 					<h2 className="text-3xl font-extrabold mb-5">
-						Interested in a collaboration? <span className="orange">Contact me</span>
+						Interested in a collaboration? <span className="myOrange">Contact me</span>
 					</h2>
 					<div className="inline-block">
 						<a
 							href="mailto:valeriocasadei18@gmail.com"
-							className="border-2 border-[var(--orange)] px-14 py-4 rounded-md transition-colors duration-500 ease-in-out hover:bg-[var(--orange)] hover:shadow-[0_0_15px_var(--orange),_0_0_30px_var(--orange)] flex items-center justify-center group"
+							className="border-2 border-myOrange px-14 py-4 rounded-md transition-colors duration-1000 ease-in-out hover:bg-myOrange flex items-center justify-center group transition-delay-500"
 						>
 							<FontAwesomeIcon
 								icon={faEnvelope}
-								className="text-5xl text-[var(--orange)] transition-colors duration-500 group-hover:text-[var(--white)]"
+								className="text-5xl text-myOrange transition-colors duration-1000 group-hover:text-myWhite"
 							/>
 						</a>
 					</div>
