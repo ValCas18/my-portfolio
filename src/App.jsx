@@ -108,7 +108,7 @@ function App() {
 						My <span className="text-myOrange">Skills</span>
 					</h2>
 					<div className="flex flex-col lg:flex-row lg:gap-20">
-						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center">
+						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center border-2 border-transparent hover:border-orange-500 hover:scale-110 transform transition-all duration-500 origin-center">
 							<FontAwesomeIcon icon={faLaptopCode} className="text-myOrange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Frontend Development</h3>
 							<p className="my-3">I enjoy creating responsive and captivating interfaces using:</p>
@@ -118,7 +118,7 @@ function App() {
 								<li>React, Redux</li>
 							</ul>
 						</div>
-						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center">
+						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center border-2 border-transparent hover:border-orange-500 hover:scale-110 transform transition-all duration-500 origin-center">
 							<FontAwesomeIcon icon={faUsers} className="text-myOrange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Soft Skill</h3>
 							<p className="my-3">
