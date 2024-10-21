@@ -103,12 +103,12 @@ function App() {
 						<p className="my-5">I can't wait to put my skills to the test and grow in this dynamic field!</p>
 					</div>
 				</section>
-				<section id="skill" className="px-7 md:px-0 py-14">
+				<section id="skill" className="px-10 py-14">
 					<h2 className="text-3xl font-extrabold text-center">
 						My <span className="text-myOrange">Skills</span>
 					</h2>
 					<div className="flex flex-col lg:flex-row lg:gap-20">
-						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center border-2 border-transparent hover:border-orange-500 hover:scale-110 transform transition-all duration-500 origin-center">
+						<div className="bg-[#323946] basis-1/2 rounded-md p-6 my-5 text-center border-2 border-transparent hover:scale-110 origin-center transform hover:border-myOrange transition-all duration-500">
 							<FontAwesomeIcon icon={faLaptopCode} className="text-myOrange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Frontend Development</h3>
 							<p className="my-3">I enjoy creating responsive and captivating interfaces using:</p>
@@ -118,7 +118,7 @@ function App() {
 								<li>React, Redux</li>
 							</ul>
 						</div>
-						<div className="bg-[#323946] basis-1/2 rounded-md px-3 py-6 my-5 text-center border-2 border-transparent hover:border-orange-500 hover:scale-110 transform transition-all duration-500 origin-center">
+						<div className="bg-[#323946] basis-1/2 rounded-md p-6 my-5 text-center border-2 border-transparent hover:scale-110 origin-center transform hover:border-myOrange transition-all duration-500">
 							<FontAwesomeIcon icon={faUsers} className="text-myOrange text-4xl" />
 							<h3 className="text-2xl font-extrabold my-3">Soft Skill</h3>
 							<p className="my-3">
