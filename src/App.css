@@ -39,10 +39,12 @@
 
 .navItem {
 	font-weight: bold;
+	transition: transform 0.2s ease-in-out;
 
 	&:hover {
 		color: var(--orange);
 		cursor: pointer;
+		transform: scale(1.3);
 	}
 }
 
