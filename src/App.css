@@ -21,28 +21,29 @@
 	padding: 12px;
 	border-radius: 50%;
 	transition: background-color 0.5s ease-in-out;
-}
 
-.myIcon:hover {
-	background-color: var(--orange);
-	color: var(--white);
+	&:hover {
+		background-color: var(--orange);
+		color: var(--white);
+	}
 }
 
 .dlBtn {
 	transition: box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
-}
 
-.dlBtn:hover {
-	box-shadow: 0px 7px 28px 0px var(--orange);
-	color: var(--white);
+	&:hover {
+		box-shadow: 0px 7px 28px 0px var(--orange);
+		color: var(--white);
+	}
 }
 
 .navItem {
 	font-weight: bold;
-}
-.navItem:hover {
-	color: var(--orange);
-	cursor: pointer;
+
+	&:hover {
+		color: var(--orange);
+		cursor: pointer;
+	}
 }
 
 #about {
