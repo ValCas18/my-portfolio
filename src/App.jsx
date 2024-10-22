@@ -78,7 +78,7 @@ function App() {
 							While studying the complexities and intricacies of human society and behavior has always been an interest
 							of mine, after earning both a Bachelor's Degree and a Master's Degree in Sociology, I decided to change my
 							path and follow my passion for technology and innovation. Embracing the challenge of becoming a
-							<strong className="text-myOrange"> Front-end developer</strong> was my next step.
+							<strong className="text-myOrange"> front-end developer</strong> was my next step.
 						</p>
 						<p className="my-5">
 							I joined an online course at Epicode, where I progressed from the basics of HTML and CSS to more complex
