@@ -78,14 +78,14 @@ function App() {
 							While studying the complexities and intricacies of human society and behavior has always been an interest
 							of mine, after earning both a Bachelor's Degree and a Master's Degree in Sociology, I decided to change my
 							path and follow my passion for technology and innovation. Embracing the challenge of becoming a
-							<strong className="text-myOrange"> frontend developer</strong> was my next step.
+							<strong className="text-myOrange"> Front-end developer</strong> was my next step.
 						</p>
 						<p className="my-5">
 							I joined an online course at Epicode, where I progressed from the basics of HTML and CSS to more complex
 							technologies, languages, and libraries such as{" "}
 							<span className="text-myOrange font-bold">JavaScript, React, Redux, Bootstrap,</span> and{" "}
 							<span className="text-myOrange font-bold">Tailwind</span>. I strive to learn something new every day and
-							continuously practice to hone my web development skills. What I truly enjoy about frontend development is
+							continuously practice to hone my web development skills. What I truly enjoy about front-end development is
 							the opportunity to create functional, innovative, eye-catching, and responsive websites and interfaces.
 						</p>
 						<p className="my-5">
@@ -110,7 +110,7 @@ function App() {
 					<div className="flex flex-col lg:flex-row lg:gap-20">
 						<div className="bg-[#323946] basis-1/2 rounded-md p-6 my-5 text-center border-2 border-transparent hover:scale-110 origin-center transform hover:border-myOrange transition-all duration-500">
 							<FontAwesomeIcon icon={faLaptopCode} className="text-myOrange text-4xl" />
-							<h3 className="text-2xl font-extrabold my-3">Frontend Development</h3>
+							<h3 className="text-2xl font-extrabold my-3">Front-end Development</h3>
 							<p className="my-3">I enjoy creating responsive and captivating interfaces using:</p>
 							<ul className="my-3">
 								<li>HTML, CSS, JS</li>
