@@ -113,8 +113,9 @@ function App() {
 							<h3 className="text-2xl font-extrabold my-3">Front-end Development</h3>
 							<p className="my-3">I enjoy creating responsive and captivating interfaces using:</p>
 							<ul className="my-3">
-								<li>HTML, CSS, JS</li>
+								<li>HTML, CSS</li>
 								<li>Bootstrap, Taiwind</li>
+								<li>JavaScript, TypeScript</li>
 								<li>React, Redux</li>
 							</ul>
 						</div>
