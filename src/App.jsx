@@ -60,7 +60,7 @@ function App() {
 									<FontAwesomeIcon icon={faGithub} className="myIcon" />
 								</a>{" "}
 							</div>
-							<a href="/public/[ITA]CV_ValerioCasadei.pdf" download>
+							<a href="/[ITA]CV_ValerioCasadei.pdf" download>
 								<button className="dlBtn px-6 py-3 bg-[#fd7014] text-black rounded-full mb-5 font-bold">
 									Download CV
 								</button>
