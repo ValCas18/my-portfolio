@@ -115,9 +115,9 @@ function App() {
 							<ul className="my-3">
 								<li>HTML, CSS</li>
 								<li>Bootstrap, Taiwind</li>
+								<li>UX/UI and Responsive Design</li>
 								<li>JavaScript, TypeScript</li>
 								<li>React, Redux</li>
-								<li>UX/UI and Responsive Design principles</li>
 							</ul>
 						</div>
 						<div className="bg-[#323946] basis-1/2 rounded-md p-6 my-5 text-center border-2 border-transparent hover:scale-110 origin-center transform hover:border-myOrange transition-all duration-500">
