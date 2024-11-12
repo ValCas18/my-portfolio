@@ -115,7 +115,7 @@ function App() {
 							<ul className="my-3">
 								<li>HTML, CSS</li>
 								<li>Bootstrap, Taiwind</li>
-								<li>UX/UI and Responsive Design</li>
+								<li>UX/UI, Responsive Design</li>
 								<li>JavaScript, TypeScript</li>
 								<li>React, Redux</li>
 							</ul>
