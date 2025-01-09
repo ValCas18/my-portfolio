@@ -100,7 +100,7 @@ function App() {
 							enjoying a good movie: Interstellar and The Lord of the Rings are my all-time favorites. I'm also an avid
 							gamer, often exploring the fields of Azeroth in World of Warcraft (For the Alliance!).
 						</p>
-						<p className="my-5">I can't wait to put my skills to the test and grow in this dynamic field!</p>
+						<p className="my-4">I can't wait to put my skills to the test and grow in this dynamic field!</p>
 					</div>
 				</section>
 				<section id="skill" className="px-10 py-14">
